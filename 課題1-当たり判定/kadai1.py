@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print('自機のx座標 y座標 幅 高さ:', end="")
 my_info = [int(i) for i in input().split()]
 print('敵の数:', end="")
