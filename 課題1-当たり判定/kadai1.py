@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-print('x座標 y座標 幅 高さ:', end="")
+print('自機のx座標 y座標 幅 高さ:', end="")
 my_info = [int(i) for i in input().split()]
 print('敵の数:', end="")
 enemy = int(input())
@@ -7,6 +7,7 @@ enemy_info = []
 distance = []
 width = []
 
+print('敵機のx座標 y座標 幅 高さ:', end="")
 for i in range(enemy):
     array = list(map(int, input().strip().split()))
     enemy_info.append(array)
