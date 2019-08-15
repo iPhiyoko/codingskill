@@ -1,2 +1,1 @@
-# codingskill
-kadai1
+# codingskillの課題
